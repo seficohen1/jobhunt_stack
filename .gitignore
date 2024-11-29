@@ -1,0 +1,18 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore AWS credentials
+*.env
+*.pem
+aws-exports.js
+
+# Ignore CloudFormation build artifacts
+*.template
+*.zip
+
+# Ignore node_modules (if using JavaScript for Lambda)
+node_modules/
+
+# Ignore S3 upload directories
+uploads/
